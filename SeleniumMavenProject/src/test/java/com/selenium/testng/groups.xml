@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <groups> 
+  <run>
+  <exclude name ="smoke" />
+   <include name ="regression" />
+  </run>
+  </groups>
+    <classes>
+      <class name="com.selenium.testng.TestGroup1"/>
+      <class name="com.selenium.testng.TestGroup2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
